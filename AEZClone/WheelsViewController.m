@@ -6,13 +6,13 @@
 //  Copyright (c) 2013年 Xingyin Zhu. All rights reserved.
 //
 
-#import "SecondViewController.h"
+#import "WheelsViewController.h"
 
-@interface SecondViewController ()
+@interface WheelsViewController ()
 
 @end
 
-@implementation SecondViewController
+@implementation WheelsViewController
 
 - (void)viewDidLoad
 {
@@ -24,6 +24,22 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+#pragma mark ios rotate 6.0 api
+- (BOOL)shouldAutorotate
+{
+    return NO;
+}
+
+- (NSUInteger)supportedInterfaceOrientations
+{
+    return UIInterfaceOrientationMaskPortrait;
+}
+
+- (UIInterfaceOrientation)preferredInterfaceOrientationForPresentation
+{
+    return UIInterfaceOrientationPortrait;
 }
 
 @end

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		50EDA1AC16AD1C1F00C9A9D4 /* WheelConfigureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50EDA1AB16AD1C1F00C9A9D4 /* WheelConfigureViewController.m */; };
+		50EDA1B716AD2F1A00C9A9D4 /* HomeBtnCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 50EDA1B616AD2F1A00C9A9D4 /* HomeBtnCell.m */; };
 		BEF4676E16AA92790007120F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEF4676D16AA92790007120F /* UIKit.framework */; };
 		BEF4677016AA92790007120F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEF4676F16AA92790007120F /* Foundation.framework */; };
 		BEF4677216AA92790007120F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEF4677116AA92790007120F /* CoreGraphics.framework */; };
@@ -17,15 +19,15 @@
 		BEF4678216AA92790007120F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BEF4678116AA92790007120F /* Default@2x.png */; };
 		BEF4678416AA92790007120F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BEF4678316AA92790007120F /* Default-568h@2x.png */; };
 		BEF4678716AA92790007120F /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEF4678516AA92790007120F /* MainStoryboard.storyboard */; };
-		BEF4678A16AA92790007120F /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF4678916AA92790007120F /* FirstViewController.m */; };
-		BEF4678C16AA92790007120F /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = BEF4678B16AA92790007120F /* first.png */; };
-		BEF4678E16AA92790007120F /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BEF4678D16AA92790007120F /* first@2x.png */; };
-		BEF4679116AA92790007120F /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF4679016AA92790007120F /* SecondViewController.m */; };
-		BEF4679316AA92790007120F /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = BEF4679216AA92790007120F /* second.png */; };
-		BEF4679516AA92790007120F /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BEF4679416AA92790007120F /* second@2x.png */; };
+		BEF4678A16AA92790007120F /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF4678916AA92790007120F /* HomeViewController.m */; };
+		BEF4679116AA92790007120F /* WheelsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF4679016AA92790007120F /* WheelsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		50EDA1AA16AD1C1F00C9A9D4 /* WheelConfigureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WheelConfigureViewController.h; sourceTree = "<group>"; };
+		50EDA1AB16AD1C1F00C9A9D4 /* WheelConfigureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WheelConfigureViewController.m; sourceTree = "<group>"; };
+		50EDA1B516AD2F1900C9A9D4 /* HomeBtnCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeBtnCell.h; sourceTree = "<group>"; };
+		50EDA1B616AD2F1A00C9A9D4 /* HomeBtnCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeBtnCell.m; sourceTree = "<group>"; };
 		BEF4676916AA92790007120F /* AEZClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AEZClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEF4676D16AA92790007120F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		BEF4676F16AA92790007120F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -40,14 +42,10 @@
 		BEF4678116AA92790007120F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		BEF4678316AA92790007120F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		BEF4678616AA92790007120F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		BEF4678816AA92790007120F /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		BEF4678916AA92790007120F /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		BEF4678B16AA92790007120F /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
-		BEF4678D16AA92790007120F /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		BEF4678F16AA92790007120F /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		BEF4679016AA92790007120F /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
-		BEF4679216AA92790007120F /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
-		BEF4679416AA92790007120F /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		BEF4678816AA92790007120F /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		BEF4678916AA92790007120F /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		BEF4678F16AA92790007120F /* WheelsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WheelsViewController.h; sourceTree = "<group>"; };
+		BEF4679016AA92790007120F /* WheelsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WheelsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,14 +95,14 @@
 				BEF4677C16AA92790007120F /* AppDelegate.h */,
 				BEF4677D16AA92790007120F /* AppDelegate.m */,
 				BEF4678516AA92790007120F /* MainStoryboard.storyboard */,
-				BEF4678816AA92790007120F /* FirstViewController.h */,
-				BEF4678916AA92790007120F /* FirstViewController.m */,
-				BEF4678B16AA92790007120F /* first.png */,
-				BEF4678D16AA92790007120F /* first@2x.png */,
-				BEF4678F16AA92790007120F /* SecondViewController.h */,
-				BEF4679016AA92790007120F /* SecondViewController.m */,
-				BEF4679216AA92790007120F /* second.png */,
-				BEF4679416AA92790007120F /* second@2x.png */,
+				BEF4678816AA92790007120F /* HomeViewController.h */,
+				BEF4678916AA92790007120F /* HomeViewController.m */,
+				50EDA1AA16AD1C1F00C9A9D4 /* WheelConfigureViewController.h */,
+				50EDA1AB16AD1C1F00C9A9D4 /* WheelConfigureViewController.m */,
+				50EDA1B516AD2F1900C9A9D4 /* HomeBtnCell.h */,
+				50EDA1B616AD2F1A00C9A9D4 /* HomeBtnCell.m */,
+				BEF4678F16AA92790007120F /* WheelsViewController.h */,
+				BEF4679016AA92790007120F /* WheelsViewController.m */,
 				BEF4677416AA92790007120F /* Supporting Files */,
 			);
 			path = AEZClone;
@@ -180,10 +178,6 @@
 				BEF4678216AA92790007120F /* Default@2x.png in Resources */,
 				BEF4678416AA92790007120F /* Default-568h@2x.png in Resources */,
 				BEF4678716AA92790007120F /* MainStoryboard.storyboard in Resources */,
-				BEF4678C16AA92790007120F /* first.png in Resources */,
-				BEF4678E16AA92790007120F /* first@2x.png in Resources */,
-				BEF4679316AA92790007120F /* second.png in Resources */,
-				BEF4679516AA92790007120F /* second@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,8 +190,10 @@
 			files = (
 				BEF4677A16AA92790007120F /* main.m in Sources */,
 				BEF4677E16AA92790007120F /* AppDelegate.m in Sources */,
-				BEF4678A16AA92790007120F /* FirstViewController.m in Sources */,
-				BEF4679116AA92790007120F /* SecondViewController.m in Sources */,
+				BEF4678A16AA92790007120F /* HomeViewController.m in Sources */,
+				BEF4679116AA92790007120F /* WheelsViewController.m in Sources */,
+				50EDA1AC16AD1C1F00C9A9D4 /* WheelConfigureViewController.m in Sources */,
+				50EDA1B716AD2F1A00C9A9D4 /* HomeBtnCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,6 +310,7 @@
 				BEF4679A16AA92790007120F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
